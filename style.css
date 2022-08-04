@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+body{
+  background-image: url("justice.png");
+  background-position: center;
+  background-size: cover;
+ height: 100vh;
+
+ 
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+ .navbar
+ {
+ display: flex;
+ justify-content:space-around;
+ background-color:#2B2922 ;
+ width: 100vw;
+ }
+ .logo{
+  margin-left: 0px;
+  padding-top: 35px;
+  width: 88px;
+  height:65px;
+  cursor: grab;
+ }
+ .list
+{
+  list-style: none;
+  color:white;
+  padding-left: 250px;
+}
+.list-item{
+  display: inline-block;
+  padding: 40px 20px;
+  cursor: grab;
+}
+.list-item:first-child {
+  font-weight: 800;
+  
+}
+.getbutton{
+  padding-top:40px ;
+  margin-left:0 ;
+}
+.button-small
+{
+ 
+  border: 1px solid #d3bb64;
+  background-color: transparent;
+  border-radius: 0.6em;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  align-items: center;
+  cursor: grab;
+  color:#d3bb64 ;
+}
+.herotitles{  
+  color: white; 
+  display: flex;  
+  justify-content:space-around;
+  align-items: center;
+  background-color:#2B2922 ;
+ width: 100vw;
+}
+.herotitles h1{
+ margin-left:40px; 
+font-size: 40px;
+padding-right:200px ;
+}
+.herotitles p{
+  font-size: 15px;
+  margin-right: 150px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.footer
+{
+ 
+  background-color:#2B2922 ;
+  position: absolute;
+  width: 100%;
+  
+  bottom: 0;
+
+}
+.bottom div
+{
+  display: flex;
+ justify-content: flex-end;
+}
+.button-large-prev
+{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom:30px;
+  color:#d3bb64 ;
+  font-size: 30px;
+  background-color: #39372D;
+ 
+}
+.button-large-prev div{
+  border: 1px solid yellow;
+  border-radius: 100%;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  align-items: center;
+  cursor: grab;
+}
+.button-large-next
+{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom:30px;
+  background-color: #A08F36; 
+  color: white;
+  font-size: 30px;
+}
+.button-large-next div{
+  border: 1px solid white;
+  border-radius: 100%;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  align-items: center;
+  cursor: grab;
+}
