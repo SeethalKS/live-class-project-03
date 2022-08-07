@@ -23,6 +23,9 @@ body{
  justify-content:space-around;
  background-color:#2B2922 ;
  width: 100vw;
+ 
+  margin: 0 auto;
+  padding: 0 120px 0 120px;
  }
  .logo{
   margin-left: 0px;
@@ -40,11 +43,14 @@ body{
 .list-item{
   display: inline-block;
   padding: 40px 20px;
-  cursor: grab;
-}
-.list-item:first-child {
-  font-weight: 800;
   
+}
+.list li {
+  cursor: pointer;
+}
+
+.list li:hover{
+  font-weight: bold;
 }
 .getbutton{
   padding-top:40px ;
@@ -67,32 +73,32 @@ body{
 .herotitles{  
   color: white; 
   display: flex;  
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
   background-color:#2B2922 ;
- width: 100vw;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 170px 0 120px;
+ 
 }
-.herotitles h1{
- margin-left:40px; 
-font-size: 40px;
-padding-right:200px ;
+.hero-heading { 
+  margin:auto;
+  font-size: 40px;
+  width: 100%;
 }
 .herotitles p{
   font-size: 15px;
-  margin-right: 150px;
+  margin-left: 180px;
 }
 /* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
 .footer
 {
- 
   background-color:#2B2922 ;
   position: absolute;
-  width: 100%;
-  
+  width: 100%; 
   bottom: 0;
-
 }
 .bottom div
 {
